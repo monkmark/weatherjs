@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+}
+.search-card {
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+    left: 35%;
+    top: 10%;
+    
+}
+.card-deck {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    display: flex;
+}
+.card {
+    width: 14vw;
+    height: auto;
+}
+.card-img-top {
+    width: 14vw;
+    height: auto;
+}
+
+.card-body {
+    width: 14vw;
+    height: auto;
+}
+.card-title {
+    font-size: .8rem;
+    
+}
+.card-text {
+ font-size: .8rem;
+}
+.card-footer {
+    width: 14vw;
+    height: 8vh;
+}
+
+.inputs {
+    position: relative;
+    padding: 6px;
+    text-align: center;
+}  
