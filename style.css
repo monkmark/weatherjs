@@ -6,6 +6,7 @@
 html, body {
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 main {
     width: 100vw;
@@ -22,7 +23,7 @@ main {
     width: 100vw;
     height: 40vh;
 }
-.footer {
+footer {
     width: 100vw;
     height: auto;
 }
@@ -33,27 +34,25 @@ main {
     display: flex;
 }
 .card {
-    width: 50vw;
+    width: 80vw;
     height: auto;
+    display: grid;
 }
 .card-img-top {
     width: 10vw;
     height: auto;
 }
 .card-body {
-    width: 50vw;
-    height: auto;
+    width: 100vw;
+    height: 25vh;
 }
 .card-title {
-    font-size: .8rem; 
+    font-size: .8rem;
+    position: relative;
 }
-.card-text {
- font-size: .8rem;
-}
-
 .card-footer {
-    width: 100vw;
-    height: 50vh;
+    width: auto;
+    height: auto;
 }
 .inputs {
     position: relative;
